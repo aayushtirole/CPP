@@ -1,9 +1,11 @@
-#include <iostream>
 
+#include <iostream> // Include the input-output stream library
+
+// main function: program execution starts here
 int main() {
-    int a = 5;
-    int b = 3;
-    a += b; // Equivalent to: a = a + b;
-    std::cout << "a = " << a << std::endl;
-    return 0;
+    // Print Hello, World! to the console
+    std::cout << "Hello, World!" << std::endl;
+
+    return 0; // Indicate successful execution
 }
+
