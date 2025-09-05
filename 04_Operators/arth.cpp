@@ -20,4 +20,5 @@ int main (){
     } else {
         cout << "Total price is " << totalPrice << endl;
     }
+    return 0;
 }
