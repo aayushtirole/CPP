@@ -39,6 +39,8 @@
         "sstream": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
-        "typeinfo": "cpp"
-    }
+        "typeinfo": "cpp",
+        "quest2,cpp": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
