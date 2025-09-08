@@ -5,9 +5,10 @@ using namespace std;
 
 void print(int n){
 
-    if(n == 0) return;
-    cout<<n<<endl;
-    print(n-1);
+    if(n == 0) return; // base case
+    cout<<n<<endl; // work 
+    print(n-1); // Call
+    // cout<<n<<endl; // baad main work se ye sequencewise printing krega 
 }
 int main(){
     int n;
