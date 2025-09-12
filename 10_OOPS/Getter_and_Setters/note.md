@@ -9,7 +9,7 @@
 
 ## 2. Example Code with Explanation
 
-```cpp
+
 #include <iostream>
 using namespace std;
 
@@ -24,6 +24,7 @@ public:
 
     // Function to set health
     // 'int h' is a parameter (local variable) which takes value from main()
+    
     void setHealth(int h) {
         health = h;   // assigns local variable 'h' to data member 'health'
     }
