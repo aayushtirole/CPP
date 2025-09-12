@@ -1,55 +1,45 @@
-// Getters and setters 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 // Class definition
-class hero {
-
-
-    private:
-    // properties
+class Hero {
+private:
+    // properties (private for encapsulation)
     int health;
+    char level;
 
-    public:
-    char level;  
-
-    void print(){
-        cout<<level<<endl;
-    }
-
-    int gethealth(){
-        return health;
-    }
-
-    int getlevel(){
-        return level;
-    }
-
-    char getlevel(){
-        return level;
-    }
-
-    void sethealth(int h){
+public:
+    // ---- Setter Functions ----
+    void setHealth(int h) {
         health = h;
     }
 
-    void setlevel(char ch){
-        level = ch;
+    void setLevel(char l) {
+        level = l;
     }
-}; 
+
+    // ---- Getter Functions ----
+    int getHealth() {
+        return health;
+    }
+
+    char getLevel() {
+        return level;
+    }
+};
 
 int main() {
 
     // creation of object 
-    hero h1;  
-    h1.health = 70;
-    h1.level = 'A';
+    Hero h1;
 
-    cout << "health is  :" << h1.health << endl;  
-    cout << "level is  :" << h1.level << endl;  
+    // Using setters to assign values
+    h1.setHealth(70);
+    h1.setLevel('A');
 
+    // Using getters to access values
+    cout << "Health is : " << h1.getHealth() << endl;
+    cout << "Level is  : " << h1.getLevel() << endl;
 
     return 0;
 }
-
-explain kro commnet main  
