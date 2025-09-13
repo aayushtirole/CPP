@@ -96,16 +96,6 @@ int main() {
     // cout << b.timeToComplete << endl;
 
 
-
-
-
-
-
-
-
-
-
-
     // //Static
     // Hero a;
 
@@ -113,10 +103,6 @@ int main() {
     // Hero *b = new Hero();
     // //manually destructor call
     // delete b;
-
-
-
-
 
 
 
@@ -147,19 +133,6 @@ int main() {
 //     hero2.print();
 
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
 
     // //Hero tt;
 
@@ -174,18 +147,6 @@ int main() {
 
     // Hero temp(22, 'B');
     // temp.print();
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     /*
