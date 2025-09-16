@@ -11,17 +11,17 @@ int main(){
     s.push(2);
     s.push(3);
 
-    stack<int> s2;
+    // stack<int> s2;
 
-    s2.swap(s);
+    // s2.swap(s);
 
-    // while(!s.empty()){ 
-    //     cout<<s.top() << " ";
-    //     s.pop();
-    // }
+    while(!s.empty()){ 
+        cout<<s.top() << " ";
+        s.pop();
+    }
 
-    cout << "s size : " << s.size() << endl; //0
-    cout << "s2 size : " << s2.size() << endl; //3
+    // cout << "s size : " << s.size() << endl; //0
+    // cout << "s2 size : " << s2.size() << endl; //3
 
 
     cout << endl;
