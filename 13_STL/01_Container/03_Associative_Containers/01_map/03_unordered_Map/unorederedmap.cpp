@@ -1,20 +1,20 @@
 #include<iostream>
 #include<vector>
 #include<map>
+#include<unordered_map>
 
 using namespace std;
 
 int main(){
 
-    multimap<string, int> m;
+   unordered_map<string, int> m;
 
    m.emplace("tv", 100);
-   m.emplace("tv", 100);
-   m.emplace("tv", 100);
-   m.emplace("tv", 100);
+   m.emplace("laptop", 100);
+   m.emplace("fridge", 100);
+   m.emplace("watch", 100);
 
-//    m.erase(m.find("tv"));
-   m.erase("tv");
+
     
 
 
