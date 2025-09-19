@@ -44,5 +44,5 @@ int main() {
 
     cout << "The LCM (Least Common Multiple) of " << num1 << " and " << num2 << " is: " << lcm_val << endl;
 
-    return 0; // Program successfully completed
+    return 0; 
 }
