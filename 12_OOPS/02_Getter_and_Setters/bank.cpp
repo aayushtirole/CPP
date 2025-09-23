@@ -65,8 +65,8 @@ int main() {
     cout << "After Withdraw, Balance: " << acc.getBalance() << endl;
 
     // --- Step 5: Invalid cases ---
-    acc.setBalance(-200);   // invalid (negative balance)
-    acc.deposit(-50);       // invalid deposit
+    acc.setBalance(200);   // invalid (negative balance)
+    acc.deposit(50);       // invalid deposit
     acc.withdraw(2000);     // invalid withdraw (jitna hai usse zyada nikalne ki try)
 
     return 0;
